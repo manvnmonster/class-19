@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	background: #fff;
+
+}
+
+.tinyOne-header{
+	background: #fbdb00;
+	padding: 60px 0;
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+.icon-items ul{
+	display: flex;
+	justify-content: flex-end;
+}	
+.icon-items ul li i{
+	padding: 10px;
+}
+.col-8 a img{
+	margin:auto;
+}
+.col-2 i{
+	font-size: 30px;
+}
+
+
+/* banner */
+
+.tinyOne-banner-icon ul{
+	display: flex;
+	justify-content: center;
+}
+.tinyOne-banner-icon ul li{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+	margin: 0 10px;
+	border-radius: 50%;
+	margin-top: 32px;
+	margin-bottom: 231px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.tinyOne-banner{
+	margin-top: 227px;
+}
+.tinyOne-banner-text{
+	text-align: center;
+}
+.tinyOne-banner-text h1{
+	color: #010101;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 35px;
+	
+}
+.tinyOne-banner-text p{
+	color: #313841;
+	font-size: 20px;
+}
+.carousel-indicators button{
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50%;
+}
+/* banner-end */
+
+
+/*features */
+
+.tinyone-title-2{
+	text-align: center;
+	margin-top: 114px;
+	margin-bottom: 60px;
+}
+
+.tinyone-title-2 h2{
+	font-weight: 700;
+	font-size: 32px;
+	color: #010101;
+	padding-bottom: 19px;
+}
+.tinyone-title-2 p{
+	font-weight: 400;
+	font-size: 20px;
+	color: #313841;
+}
+.small-section{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+
+}
+/*end/*
+
+/*last section*/
+.last-section{
+	background: #010101;
+	padding-top: 94px;
+}
+.tinyone-title-3{
+	text-align: center;	
+}
+.tinyone-title-3 h2{
+	font-weight: 700;
+	font-size: 32px;
+	color: #fbdb00;
+	padding-bottom: 17px;
+}
+.tinyone-title-3 p{
+	font-weight: 400;
+	font-size: 20px;
+	color: #898989;
+	padding-bottom: 40px;
+}
+
+/*form*/
+.form{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+.email input{
+	width: 581px;
+	height: 53px;
+	margin-right: 20px;
+	border-radius: 7px;
+	padding: 0 24px;
+}
+.send input{
+	width: 127px;
+	height: 53px;
+	font-weight: 700;
+	background: #fbdb00;
+	border: 1px solid #000;
+	border-radius: 7px; 
+}
+
+/*contact*/
+.contact{
+	display: flex;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	justify-content: space-between;
+	padding-bottom: 200px;
+}
